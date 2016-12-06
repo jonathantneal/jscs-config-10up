@@ -1,0 +1,34 @@
+{
+  "name": "jscs-config-dev",
+  "version": "1.0.1",
+  "description": "A shareable configuration package for jscs",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "jonathantneal/jscs-config-dev",
+  "homepage": "https://github.com/jonathantneal/jscs-config-dev#readme",
+  "bugs": "https://github.com/jonathantneal/jscs-config-dev/issues",
+  "main": ".jscs.json",
+  "files": [
+    ".jscs.json"
+  ],
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "jscs test.js"
+  },
+  "devDependencies": {
+    "jscs": "^3.0.7"
+  },
+  "keywords": [
+    "jscsconfig",
+    "jscs-config",
+    "javascript",
+    "js",
+    "config",
+    "dev",
+    "development",
+    "web",
+    "web-development",
+    "webdev",
+    "webdevelopment"
+  ]
+}
